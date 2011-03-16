@@ -1,0 +1,23 @@
+<application>
+	<name>ColdFusion Builder 2 Default Keyboard Shortcuts</name>
+	<author>Brian Swartzfager</author>
+	<email>bcswartz@gmail.com</email>
+	<version>Beta</version>
+	<description>Opens a list of the default keyboard shortcuts in ColdFusion Builder 2.  Choose between Windows or Macintosh. Feel free to edit the extension index.cfm file to customize for your own use.</description>	
+	<license>Do whatever you want with it</license>
+	
+	<!-- Add menu contributions to Outline View -->	   
+    <menucontributions >
+		<contribution target="projectview" >
+			<menu name="Default CF Builder Shortcuts">
+				<action name="Show Keyboard Shortcuts" handlerid="showShortcuts" showResponse="no" />			
+			</menu>
+		</contribution>
+    </menucontributions>	
+
+	<!-- Define Handlers-->
+	<handlers>		
+		<handler id="showShortcuts" type="CFM" filename="index.cfm" />
+	</handlers>
+
+</application>
