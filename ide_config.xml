@@ -3,8 +3,8 @@
 	<author>Brian Swartzfager</author>
 	<email>bcswartz@gmail.com</email>
 	<version>Beta</version>
-	<description>Opens a list of the default keyboard shortcuts in ColdFusion Builder 2.  Choose between Windows or Macintosh. Feel free to edit the extension index.cfm file to customize for your own use.</description>	
-	<license>Do whatever you want with it</license>
+	<description>Opens a list of the default keyboard shortcuts in ColdFusion Builder 2.  Feel free to edit the extension index.cfm file to customize for your own use.</description>	
+	<license>MIT License (which is, as I interpret it, "do whatever you want with it")</license>
 	
 	<!-- Add menu contributions to Outline View -->	   
     <menucontributions >
