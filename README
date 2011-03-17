@@ -1,3 +1,3 @@
-NOTE: To install in CF Builder, you'll need to extract the GitHub-generated .zip file and use the "install extension from folder" option in Builder.
+NOTE: To install in CF Builder, I would suggest downloading the "cfbsk.zip" file so you can install it straight from the zip file.  If you download the GitHub-generated .zip, you'll need to extract the folders first and then use the "install extension from folder" option in Builder.
 
 A ColdFusion Builder 2 extension that displays the default Builder shortcut keys in an Eclipse view.
